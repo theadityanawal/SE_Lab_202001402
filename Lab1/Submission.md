@@ -1,6 +1,6 @@
-#Question 1 
+# Question 1 
 
-##Functional Requirements
+## Functional Requirements
 
 1. Book borrowing and returning functionality for members
 2. Book reservation and extension functionality for members
@@ -11,7 +11,7 @@
 7. Confidential information encryption
 
 
-##Non-functional Requirements
+## Non-functional Requirements
 
 1. User-friendly interface
 2. Fast response time
@@ -21,14 +21,14 @@
 6. Compliance with HTML 5 standards.
 
 
-#Question 2
+# Question 2
 
-##Scope
+## Scope
 
 The scope of the problem is to create a mobile application for people with disabling hearing loss to help them recognize key sound events of interest.
 
 
-##Features
+## Features
 
 1. Uses artificial intelligence to recognize key sound events (car horns, babies, etc.)
 2. Immediate alerts for recognized sound events
@@ -37,7 +37,7 @@ The scope of the problem is to create a mobile application for people with disab
 5. Low-latency to work in real-time
 
 
-##Non-Functional Aspects
+## Non-Functional Aspects
 
 1. Performance (low-latency)
 2. Usability (for people with disabling hearing loss)
