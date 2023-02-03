@@ -1,8 +1,23 @@
-Identify scope, features and non-functional aspects of the following problem.
+----------------------------
+Scope
+----------------------------
 
-Approximately 5% of the world population (or a staggering 466 million people) suffers from
-disabling hearing loss. We set out to create an impactful solution for this community that
-addresses some of their everyday needs. Our mobile application uses artificial intelligence to
-recognize key sound events of interest to this community, such as car horns and babies,
-where immediate alerts and continual logging are critical for the user. This app is optimized
-for Android with low-latency so that it works in real-time for use.
+The scope of the problem is to create a mobile application for people with disabling hearing loss to help them recognize key sound events of interest.
+
+----------------------------
+Features
+----------------------------
+
+1. Uses artificial intelligence to recognize key sound events (car horns, babies, etc.)
+2. Immediate alerts for recognized sound events
+3. Continual logging of recognized sound events
+4. Optimized for Android
+5. Low-latency to work in real-time
+
+----------------------------
+Non-Functional Aspects
+----------------------------
+
+1. Performance (low-latency)
+2. Usability (for people with disabling hearing loss)
+3. Compatibility (Android only)
