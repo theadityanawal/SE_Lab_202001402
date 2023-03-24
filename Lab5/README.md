@@ -12,6 +12,9 @@ The repository is a collection of files related to the open-source software appl
 
 Pylint is a widely-used tool for performing static analysis on Python code. It helps in detecting and fixing various errors and issues in the code, such as syntax errors, indentation errors, and missing or unused variables, among others. Pylint is a powerful tool that is capable of analyzing large codebases like the yt-dl repository, making it an excellent choice for conducting a static analysis of the repository. By using Pylint, the developer can ensure that the code is well-written, adheres to best coding practices, and is free from common coding errors and issues. Overall, using Pylint for static analysis of the yt-dl repository is an effective way to improve the quality of the code and make it more maintainable and efficient.
 
+
+Also added the text file of static analysis having 33211 errors with code rating of 5.64/10. 
+
 # Errors
 
 1. **`yt_dlp\extractor\generic.py:2525:4: W0102: Dangerous default value {} as argument (dangerous-default-value)`** This warning indicates that a mutable default value (in this case, an empty dictionary **`{}`**) is being used as a function argument, which can lead to unexpected behaviour if the default value is modified.
