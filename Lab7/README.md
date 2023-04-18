@@ -312,36 +312,36 @@ Note: Test cases TC1 to TC10 covers all identified equivalence classes.
 
 To achieve statement coverage, we need to make sure that every statement in the code is executed at least once.
 
-Test 1: p = empty vector
-Test 2: p = vector with one point
-Test 3: p = vector with two points with the same y component
-Test 4: p = vector with two points with different y components
-Test 5: p = vector with three or more points with different y components
-Test 6: p = vector with three or more points with the same y component
+Test 1: p = empty vector <br>
+Test 2: p = vector with one point <br>
+Test 3: p = vector with two points with the same y component <br>
+Test 4: p = vector with two points with different y components <br>
+Test 5: p = vector with three or more points with different y components <br>
+Test 6: p = vector with three or more points with the same y component <br>
 
 
 ### Branch coverage test sets
 
 To achieve branch coverage, we need to make sure that every possible branch in the code is taken at least once
 
-Test 1: p = empty vector
-Test 2: p = vector with one point
-Test 3: p = vector with two points with the same y component
-Test 4: p = vector with two points with different y components
-Test 5: p = vector with three or more points with different y components, and none of them have the same x component
-Test 6: p = vector with three or more points with the same y component, and some of them have the same x component
-Test 7: p = vector with three or more points with the same y component, and all of them have the same x component
+Test 1: p = empty vector <br>
+Test 2: p = vector with one point <br>
+Test 3: p = vector with two points with the same y component <br>
+Test 4: p = vector with two points with different y components <br>
+Test 5: p = vector with three or more points with different y components, and none of them have the same x component <br>
+Test 6: p = vector with three or more points with the same y component, and some of them have the same x component <br>
+Test 7: p = vector with three or more points with the same y component, and all of them have the same x component <br>
 
 
 ### Basic condition coverage test sets
 
 To achieve basic condition coverage, we need to make sure that every basic condition in the code (i.e., every Boolean subexpression) is evaluated as both true and false at least once
 
-Test 1: p = empty vector
-Test 2: p = vector with one point
-Test 3: p = vector with two points with the same y component, and the first point has a smaller x component
-Test 4: p = vector with two points with the same y component, and the second point has a smaller x component
-Test 5: p = vector with two points with different y components
-Test 6: p = vector with three or more points with different y components, and none of them have the same x component
-Test 7: p = vector with three or more points with the same y component, and some of them have the same x component
-Test 8: p = vector with three or more points with the same y component, and all of them have the same x component.
+Test 1: p = empty vector <br>
+Test 2: p = vector with one point <br>
+Test 3: p = vector with two points with the same y component, and the first point has a smaller x component <br>
+Test 4: p = vector with two points with the same y component, and the second point has a smaller x component <br>
+Test 5: p = vector with two points with different y components <br>
+Test 6: p = vector with three or more points with different y components, and none of them have the same x component <br>
+Test 7: p = vector with three or more points with the same y component, and some of them have the same x component. <br>
+Test 8: p = vector with three or more points with the same y component, and all of them have the same x component. <br>
